@@ -24,8 +24,11 @@ function SectionOne(){
       </div>
 
       <div className="body">
-        Body
+         <p className="intro-paragraph">A special collection available exclusively on Gucci.com <br/> combine two of the House's most distinctive design into<br/> an unexpected and contemporary fabric.</p>
+         <a className="view-collection" href="www.gucci.com">VIEW COLLECTION</a>
       </div>
+
+      <h1 className="supreme-flora"><span className="gg">GG</span> SUPREME FLORA</h1>
     </div>
   )
 }
