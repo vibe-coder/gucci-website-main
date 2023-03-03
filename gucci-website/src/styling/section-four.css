@@ -14,13 +14,14 @@
   display: flex;
   justify-content: space-between;
   margin: 0 30px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .column-image{
   width: 420px;
+  height: 500px;
   object-fit: cover;
-  object-position: center;
+  object-position: bottom;
 }
 
 .column-paragraph{
