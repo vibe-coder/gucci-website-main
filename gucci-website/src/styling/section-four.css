@@ -1,4 +1,20 @@
 .section-four{
   height: 100vh;
+  /* padding: 30px 30px; */
   background-color: red;
+}
+
+.section-four>h4{
+  font-family: Raleway;
+  margin: 0;
+  padding: 30px 30px;
+
+}
+
+.section-four>div{
+  display: flex;
+  justify-content: space-between;
+  background-color: yellow;
+  column-gap: 20px;
+  row-gap: 20px;
 }
