@@ -14,6 +14,7 @@ function SectionOne(){
           <a className="link" href="www.youtube.com">Men</a>
           <a className="link" href="www.youtube.com">Women</a>
           <a className="link"href="www.youtube.com">Kids</a>
+          <a className="link"href="../About-page/about.js">About</a>
         </div>
         <img className="gucci-logo" src={gucciLogo} alt='gucci logo' />
 

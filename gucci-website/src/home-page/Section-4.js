@@ -6,7 +6,8 @@ import gucciImage3 from "../model/isco--UfV80lOCqg-unsplash.jpg"
 
 function SectionFour(){
   return (
-    <div className="section-four">
+    <>
+      <div className="section-four">
       <h4>WHAT'S NEW</h4>
       <div>
         <div className="column">
@@ -21,10 +22,13 @@ function SectionFour(){
           <img className="column-image" src={gucciImage3} alt="gucci img" />
           <p className="column-paragraph">THE GUCCI PET COLLECTION</p>  
         </div>
+        
       </div>
-
       <a className="view-all-new" href="www.gucci.com">VIEW ALL</a>
+      <p className="credit">Design by: Vladmir Paskov</p>
     </div>
+    </>
+
   )
 }
 
