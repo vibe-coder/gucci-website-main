@@ -1,18 +1,39 @@
 import './styling/App.css';
-import SectionOne from './home-page/Section-1';
-import SectionTwo from './home-page/Section-2';
-import SectionThree from './home-page/Section-3';
-import SectionFour from './home-page/Section-4';
+import {Link, Routes, Route} from "react-router-dom"
+import Container from './Container';
+import gucciLogo from "./gucci-logo-1.svg"
+import searchICon from "./icons8-search-50.png"
+import walletIcon from "./icons8-wallet-50.png"
+import AboutSection1 from './About-page/AboutSection1'; 
 
 
 function App() {
   return (
-    <div className="App-header">
-      <SectionOne/>
-      <SectionTwo/>
-      <SectionThree/>
-      <SectionFour/>
-    </div>
+    <>
+      <nav className='header-wrapper'>
+        <ul className='nav-link-wrapper'>
+          <li><Link className='nav-link' to="/">Home</Link></li>
+          <li><Link className='nav-link' to="/about">About</Link></li>
+          <li><Link className='nav-link' to="/">Men</Link></li>
+          <li><Link className='nav-link' to="/">Women</Link></li>
+          <li><Link className='nav-link' to="/">Kids</Link></li>
+        </ul>
+        
+        <img className="gucci-logo" src={gucciLogo} alt='gucci logo' />
+
+        <div className="icon-wrapper">
+          <img  className="icon" src={searchICon} alt='search icon' />
+          <img className="icon" src={walletIcon} alt='search icon' />
+        </div>
+      </nav>
+
+      
+      <Routes>
+        <Route path="/" element={<Container/>} /> 
+        <Route path="about" element={<AboutSection1/>} /> 
+      </Routes>
+    </>
+
   );
 }
 

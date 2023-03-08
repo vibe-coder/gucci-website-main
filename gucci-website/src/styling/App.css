@@ -1,9 +1,48 @@
-.App-header {
-  background-color: white;
-  min-height: 100vh;
-  font-size: calc(10px + 2vmin);
-  color: black;
-  margin: 0;
-
+.header-wrapper{
+  display: flex;
+  z-index: 1000;
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
 }
+
+.nav-link-wrapper{
+  display: flex;
+  list-style-type: none;
+  width: 204px;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.nav-link{
+  margin: 0;
+  text-decoration: none;
+  color: white;
+  font-family: Raleway;
+  font-size: 13px;
+  margin-right: 14px;
+  
+}
+
+.gucci-logo{
+  height: 20px;
+  filter: invert(100%);
+}
+
+.icon-wrapper{
+  width: 290px;
+  display: flex;
+  justify-content: end;
+}
+
+.icon{
+  height: 27px;
+  margin-left: 20px;
+}
+
+
 

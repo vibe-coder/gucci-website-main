@@ -42,20 +42,6 @@
   margin-right: 13px;
 }
 
-.gucci-logo{
-  height: 20px;
-  filter: invert(100%);
-}
-
-.icon-wrapper{
-  width: 70px;
-  display: flex;
-  justify-content: space-between;
-}
-.icon{
-  height: 27px;
-}
-
 /* Body Styling */
 
 .body{

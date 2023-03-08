@@ -1,4 +1,24 @@
-.app-about{
-  background-color: red;
+.about-section-1{
+  background-color: white;
   min-height: 100vh;
+}
+
+.black-backdrop{
+  background-color: black;
+  height: 80px;
+  margin-bottom: 50px;
+}
+
+.about-header{
+  font-family: Raleway;
+  font-size: 20px;
+  margin-left: 30px;
+  font-weight: 700;
+}
+
+.about-image{
+  height: 500px;
+  width: 650px;
+  object-position: top;
+  object-fit: cover;
 }
