@@ -1,6 +1,7 @@
 .about-section-1{
   background-color: white;
   min-height: 100vh;
+
 }
 
 .black-backdrop{
@@ -13,12 +14,37 @@
   font-family: Raleway;
   font-size: 20px;
   margin-left: 30px;
-  font-weight: 700;
+  font-weight: 800;
+}
+
+.hero-wrapper{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
 }
 
 .about-image{
-  height: 500px;
-  width: 650px;
+  height: 600px;
   object-position: top;
   object-fit: cover;
+  flex: 1;
 }
+
+.right-column{
+  flex: 1;
+  padding-right: 30px;
+}
+
+.about-text-1{
+  font-family: Raleway;
+  margin: 0;
+  font-size: 47px;
+  font-weight: 500;
+}
+
+.about-text-2{
+  font-family: Raleway;
+  margin-left: 250px;
+  font-weight: 500;
+}
+

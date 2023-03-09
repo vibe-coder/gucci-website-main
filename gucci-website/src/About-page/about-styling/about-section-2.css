@@ -1,0 +1,18 @@
+.about-section-2{
+  background-color: red;
+  min-height: 100vh;
+  padding: 0 30px;
+}
+
+.bamboo-header{
+  margin: 0;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.bamboo-collection-wrapper{
+  display: flex;
+  background-color: pink;
+  height: 600px;
+  justify-content: space-between;
+}

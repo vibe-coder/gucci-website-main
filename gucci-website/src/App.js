@@ -4,7 +4,7 @@ import Container from './Container';
 import gucciLogo from "./gucci-logo-1.svg"
 import searchICon from "./icons8-search-50.png"
 import walletIcon from "./icons8-wallet-50.png"
-import AboutSection1 from './About-page/AboutSection1'; 
+import AboutContainer from './About-page/AboutContainer'; 
 
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
       
       <Routes>
         <Route path="/" element={<Container/>} /> 
-        <Route path="about" element={<AboutSection1/>} /> 
+        <Route path="about" element={<AboutContainer/>} /> 
       </Routes>
     </>
 
