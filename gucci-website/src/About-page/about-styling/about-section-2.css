@@ -1,18 +1,77 @@
 .about-section-2{
-  background-color: red;
   min-height: 100vh;
   padding: 0 30px;
 }
 
 .bamboo-header{
   margin: 0;
-  padding-top: 30px;
   font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .bamboo-collection-wrapper{
   display: flex;
-  background-color: pink;
-  height: 600px;
+  height: 650px;
   justify-content: space-between;
+}
+
+.left-column{
+  display: flex;
+  column-gap: 30px;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: lightgrey;
+}
+
+.right-column{
+  flex: 1;
+  background-color: red;
+}
+
+.bag-1{
+  height: 300px;
+  width: 280px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.bag-1-wrapper>p{
+margin: 0;
+}
+
+.bag-2-wrapper>p{
+  margin: 0;
+}
+
+.bag-section{
+  display: flex;
+  column-gap: 28px;
+}
+
+.text-section{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.text-section>h3{
+  margin: 0;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 13px;
+}
+
+.text-section>p{
+  margin: 0;
+  font-family: Raleway;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.text-section>a{
+  color: black;
+  font-weight: 600;
 }
