@@ -1,5 +1,7 @@
 import "./about-styling/about-section-2.css"
 import BagOne from "../model/wiser-by-the-mile-OFHkPCkhYEY-unsplash.jpg"
+import GucciBamboo from "../model/gucii bamboo.jpg"
+import BagTwo from "..//model/aromateec--q9tuxLn4hA-unsplash.jpg"
 
 export default function AboutSection2(){
   return(
@@ -16,8 +18,8 @@ export default function AboutSection2(){
             </div>
 
             <div className="bag-2-wrapper">
-              <img className="bag-1" src={BagOne} alt="Bag One" />
-              <p>Bamboo large backpack</p>
+              <img className="bag-2" src={BagTwo} alt="Bag One" />
+              <p>Bamboo mini handbag</p>
             </div>
           </div>
 
@@ -35,7 +37,9 @@ export default function AboutSection2(){
         </div>
 
         {/* Right Section */}
-        <div className="right-column"><p>Hey Right</p></div>
+        <div className="right-column-2">
+          <img className="gucci-bamboo" src={GucciBamboo} alt="gucci bamboo" />
+        </div>
       </div>
     </div>
   )

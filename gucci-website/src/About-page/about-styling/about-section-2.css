@@ -13,19 +13,16 @@
   display: flex;
   height: 650px;
   justify-content: space-between;
+  column-gap: 30px;
 }
+
+/* LEFT COLUMN */
 
 .left-column{
   display: flex;
   column-gap: 30px;
   justify-content: space-between;
   flex-direction: column;
-  background-color: lightgrey;
-}
-
-.right-column{
-  flex: 1;
-  background-color: red;
 }
 
 .bag-1{
@@ -33,6 +30,13 @@
   width: 280px;
   object-fit: cover;
   object-position: bottom;
+}
+
+.bag-2{
+  height: 300px;
+  width: 280px;
+  object-fit: cover;
+  object-position: center bottom;
 }
 
 .bag-1-wrapper>p{
@@ -45,7 +49,7 @@ margin: 0;
 
 .bag-section{
   display: flex;
-  column-gap: 28px;
+  column-gap: 15px;
 }
 
 .text-section{
@@ -74,4 +78,20 @@ margin: 0;
 .text-section>a{
   color: black;
   font-weight: 600;
+}
+
+
+/* RIGHT COLUMN */
+
+
+.right-column-2{
+  flex: 1;
+  background-color: red;
+}
+
+.gucci-bamboo{
+  height: 650px;
+  width: 716px;
+  object-fit: cover;
+  object-position: center;
 }
