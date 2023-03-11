@@ -1,4 +1,26 @@
 .about-section-3{
   min-height: 50vh;
-  background-color: red;
+  padding: 30px 30px;
+  margin-bottom: 50px;
+}
+
+.about-section-3-container{
+  min-height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gucci-retro{
+  height: 240px;
+  width: 240px;
+  object-fit: cover;
+  object-position: center;
+}
+.gucci-address{
+  height: 240px;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
