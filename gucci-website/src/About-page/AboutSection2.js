@@ -21,7 +21,7 @@ export default function AboutSection2(){
               <img className="bag-2" src={BagTwo} alt="Bag One" />
               <p>Bamboo mini handbag</p>
             </div>
-          </div>
+          </div> 
 
 
           <div className="text-section">

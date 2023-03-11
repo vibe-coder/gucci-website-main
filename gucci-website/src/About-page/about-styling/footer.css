@@ -1,0 +1,42 @@
+.footer{
+  min-height: 50vh;
+  padding: 0 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-line{
+  min-width: 100vh;
+  height: 1px;
+  background-color: rgb(192, 192, 192);
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: transparent;
+}
+
+.gucci-logo-2{
+  height: 20px;
+  margin-bottom: 30px;
+}
+
+.footer-link-wrapper{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+  background-color: red;
+  height: 205px;
+}
+
+.footer-link-wrapper>div{
+  background-color: yellow;
+  flex: 1;
+}
+
+.footer-link-wrapper>div:nth-child(5){
+  flex: 2;
+  background-color: yellow;
+}
+

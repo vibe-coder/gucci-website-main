@@ -1,7 +1,7 @@
 .about-section-3{
   min-height: 50vh;
   padding: 30px 30px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .about-section-3-container{
@@ -12,8 +12,8 @@
 }
 
 .gucci-retro{
-  height: 240px;
-  width: 240px;
+  height: 250px;
+  width: 250px;
   object-fit: cover;
   object-position: center;
 }
@@ -23,4 +23,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.catalogue-wrapper>h4{
+  font-family: Raleway;
+  margin: 0;
+}
+
+.catalogue-wrapper>ul>li{
+  font-family: Raleway;
+  list-style-type: none;
 }
