@@ -1,5 +1,5 @@
 .footer{
-  min-height: 50vh;
+  min-height: 40vh;
   padding: 0 30px;
   display: flex;
   justify-content: center;
@@ -26,17 +26,125 @@
   display: flex;
   justify-content: space-between;
   column-gap: 20px;
-  background-color: red;
   height: 205px;
 }
 
 .footer-link-wrapper>div{
-  background-color: yellow;
   flex: 1;
 }
 
 .footer-link-wrapper>div:nth-child(5){
   flex: 2;
-  background-color: yellow;
 }
 
+
+.catalogue-wrapper>ul{
+  padding-left: 0;
+  list-style: none;
+}
+
+.catalogue-wrapper>h4{
+  font-family: Raleway;
+  margin: 0;
+}
+
+.catalogue-wrapper>ul>li{
+  font-family: Raleway;
+  list-style-type: none;
+  padding-left: 0;
+  list-style: none;
+  line-height: 25px;
+  font-weight: 500;
+  color: grey;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+
+
+.legal-area-wrapper>ul{
+  padding-left: 0;
+  list-style: none;
+}
+
+.legal-area-wrapper>h4{
+  font-family: Raleway;
+  margin: 0;
+}
+
+.legal-area-wrapper>ul>li{
+  font-family: Raleway;
+  list-style-type: none;
+  padding-left: 0;
+  list-style: none;
+  line-height: 25px;
+  font-weight: 500;
+  color: grey;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+
+.socials-wrapper>ul{
+  padding-left: 0;
+  list-style: none;
+}
+
+.socials-wrapper>h4{
+  font-family: Raleway;
+  margin: 0;
+}
+
+.socials-wrapper>ul>li{
+  font-family: Raleway;
+  list-style-type: none;
+  padding-left: 0;
+  list-style: none;
+  line-height: 25px;
+  font-weight: 500;
+  color: grey;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+
+.info-wrapper>ul{
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.info-wrapper>h4{
+  font-family: Raleway;
+  margin: 0;
+}
+
+.info-wrapper>ul>li{
+  font-family: Raleway;
+  list-style-type: none;
+  padding-left: 0;
+  list-style: none;
+  line-height: 25px;
+  font-weight: 500;
+  color: grey;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.subscribe-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.mail-input{
+  height: 20px;
+  width: 180px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+.mail-input::placeholder{
+  font-family: Raleway;
+  font-size: 8px;
+}

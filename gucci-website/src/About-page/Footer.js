@@ -9,18 +9,45 @@ export default function Footer(){
       <img className="gucci-logo-2" src={GucciLogo} alt="Gucci Logo" />
       <div className="footer-link-wrapper">
         <div className="catalogue-wrapper">
-          <h4>Catalogue</h4>
           <ul>
+          <h4>Catalogue</h4>
             <li>Men</li>
             <li>Women</li>
             <li>Kids</li>
             <li>Lookbooks</li>
           </ul>
         </div>
-        <div className="legal-area-wrapper">1</div>
-        <div className="socials-wrapper">1</div>
-        <div className="info-wrapper">1</div>
-        <div className="subscribe-wrapper">1</div>
+        <div className="legal-area-wrapper">
+        <ul>
+          <h4>Legal area</h4>
+            <li>Terms of sale</li>
+            <li>Legal notice</li>
+            <li>Cookies Settings</li>
+            <li>Privacy policy</li>
+          </ul>
+        </div>
+        <div className="socials-wrapper">
+        <ul>
+          <h4>Socials</h4>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Pinterest</li>
+            <li>Twitter</li>
+          </ul>
+        </div>
+        <div className="info-wrapper">
+        <ul>
+          <h4>Info</h4>
+            <li>About us</li>
+            <li>Shopping</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+        <div className="subscribe-wrapper">
+          <h4>Submit to our newsletter</h4>
+          <input className="mail-input" placeholder="Your e-mail address" type="email"/>
+          <input className="check-input" placeholder="Your e-mail address" type="checkbox"/>
+        </div>
       </div>
     </div>
   )
