@@ -19,7 +19,7 @@
 
 .gucci-logo-2{
   height: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .footer-link-wrapper{
@@ -150,13 +150,18 @@
   font-size: 8px;
 }
 
+.mail-input:focus{
+  outline: none;
+}
+
 .check-wrapper{
   display: flex;
   justify-content: flex-start;
-  width: 160px;
+  width: 188px;
 }
 
 .check-wrapper>p{
-  font-family: Ralway;
+  font-family: Raleway;
   font-size: 10px;
+  margin-left: 10px;
 }

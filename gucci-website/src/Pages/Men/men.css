@@ -1,0 +1,9 @@
+.men-page-wrapper{
+  min-height: 100vh;
+  background-color: red;
+}
+
+.black-backdrop-2{
+  background-color: black;
+  height: 80px;
+}

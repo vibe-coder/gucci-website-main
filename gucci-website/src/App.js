@@ -5,6 +5,9 @@ import gucciLogo from "./gucci-logo-1.svg"
 import searchICon from "./icons8-search-50.png"
 import walletIcon from "./icons8-wallet-50.png"
 import AboutContainer from './About-page/AboutContainer'; 
+import Men from './Pages/Men/Men';
+import Women from './Pages/Women/Women';
+import Kids from './Pages/Kids/Kids';
 
 
 function App() {
@@ -14,9 +17,9 @@ function App() {
         <ul className='nav-link-wrapper'>
           <li><Link className='nav-link' to="/">Home</Link></li>
           <li><Link className='nav-link' to="/about">About</Link></li>
-          <li><Link className='nav-link' to="/">Men</Link></li>
-          <li><Link className='nav-link' to="/">Women</Link></li>
-          <li><Link className='nav-link' to="/">Kids</Link></li>
+          <li><Link className='nav-link' to="/men">Men</Link></li>
+          <li><Link className='nav-link' to="/women">Women</Link></li>
+          <li><Link className='nav-link' to="/kids">Kids</Link></li>
         </ul>
         
         <img className="gucci-logo" src={gucciLogo} alt='gucci logo' />
@@ -31,6 +34,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Container/>} /> 
         <Route path="about" element={<AboutContainer/>} /> 
+        <Route path='men' element={<Men/>}/>
+        <Route path='women' element={<Women/>}/>
+        <Route path='kids' element={<Kids/>}/>
       </Routes>
     </>
 
