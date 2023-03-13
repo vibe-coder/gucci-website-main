@@ -46,7 +46,11 @@ export default function Footer(){
         <div className="subscribe-wrapper">
           <h4>Submit to our newsletter</h4>
           <input className="mail-input" placeholder="Your e-mail address" type="email"/>
-          <input className="check-input" placeholder="Your e-mail address" type="checkbox"/>
+          <div className="check-wrapper">
+            <input className="check-input" placeholder="Your e-mail address" type="checkbox"/>
+            <p>By checking I agree to the policy</p>
+          </div>
+          
         </div>
       </div>
     </div>

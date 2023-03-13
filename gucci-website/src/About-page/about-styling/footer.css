@@ -142,9 +142,21 @@
   width: 180px;
   border: none;
   border-bottom: 1px solid grey;
+  margin-bottom: 10px;
 }
 
 .mail-input::placeholder{
   font-family: Raleway;
   font-size: 8px;
+}
+
+.check-wrapper{
+  display: flex;
+  justify-content: flex-start;
+  width: 160px;
+}
+
+.check-wrapper>p{
+  font-family: Ralway;
+  font-size: 10px;
 }
