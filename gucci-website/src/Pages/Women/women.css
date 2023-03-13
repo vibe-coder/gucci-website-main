@@ -1,4 +1,73 @@
 .women-page-wrapper{
   min-height: 100vh;
-  background-color: yellow;
+  padding: 0 30px;
+  margin: 0;
 }
+
+.intro-wrapper{
+  padding-top: 30px;
+}
+
+.intro-wrapper>p{
+  font-family: Raleway;
+  margin: 0;
+  font-weight: 600;
+}
+
+.grey-intro{
+  color: grey;
+  font-weight: 400;
+}
+
+.header-wrapper-2{
+  text-align: center;
+  font-family: Raleway;
+}
+
+.header-wrapper-2>p{
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.filter-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-button{
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button{
+  background-color: transparent;
+  border: none;
+  font-family: Raleway;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.arrow{
+  transform: rotate(90deg);
+}
+
+.sort-by{
+  background-color: transparent;
+  border: none;
+  font-family: Raleway;
+  cursor: pointer;
+  color: grey;
+}
+
+.newest{
+  color: black;
+  font-weight: 600;
+}
+
+.collection-wrapper{
+  background-color: red;
+  margin-top: 20px;
+}
+
+
