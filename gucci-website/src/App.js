@@ -8,6 +8,7 @@ import AboutContainer from './About-page/AboutContainer';
 import Men from './Pages/Men/Men';
 import Women from './Pages/Women/Women';
 import Kids from './Pages/Kids/Kids';
+import WomenData from './Pages/Women/WomenData';
 
 
 function App() {
@@ -35,7 +36,12 @@ function App() {
         <Route path="/" element={<Container/>} /> 
         <Route path="about" element={<AboutContainer/>} /> 
         <Route path='men' element={<Men/>}/>
-        <Route path='women' element={<Women/>}/>
+        <Route path='women'
+        element={<Women/>}
+        image={image.WomenData}
+        name={name.WomenData}
+        price={price.WomenData}
+        />
         <Route path='kids' element={<Kids/>}/>
       </Routes>
     </>

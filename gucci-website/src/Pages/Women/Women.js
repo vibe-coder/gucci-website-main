@@ -1,7 +1,8 @@
 import "./women.css"
 import React from "react"
+import Image1 from "./Women-prodcut-Image/image-1.jpg"
 
-export default function Women(){
+export default function Women(props){
   return(
     <>
       <div className="black-backdrop-2">.</div>
@@ -28,7 +29,11 @@ export default function Women(){
           </div>
 
           <div className="collection-wrapper">
-            <div className="product-div">Hey</div>
+            <div className="product-div">
+              <img className="women-product-image" src={`./Women-prodcut-Image/${props.image}`} alt="img one" />
+              <h5 className="women-product-name">{props.name}</h5>
+              <p className="women-product-price">{props.price}</p>
+            </div>
           </div>
         </div>
       </div>
