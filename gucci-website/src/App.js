@@ -12,6 +12,12 @@ import WomenData from './Pages/Women/WomenData';
 
 
 function App() {
+
+  const productMap = WomenData.map((WomenData) => {
+    return(
+      <Women {...WomenData} />
+    )
+  })
   return (
     <>
       <nav className='header-wrapper'>
@@ -36,12 +42,7 @@ function App() {
         <Route path="/" element={<Container/>} /> 
         <Route path="about" element={<AboutContainer/>} /> 
         <Route path='men' element={<Men/>}/>
-        <Route path='women'
-        element={<Women/>}
-        image={image.WomenData}
-        name={name.WomenData}
-        price={price.WomenData}
-        />
+        <Route path='women'element={<Women/>}/>
         <Route path='kids' element={<Kids/>}/>
       </Routes>
     </>
