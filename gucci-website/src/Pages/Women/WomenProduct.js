@@ -1,10 +1,13 @@
-import image1 from "../../Women-prodcut-Image/image-1.jpg"
+// import image1 from "../../Women-prodcut-Image/image-1.jpg"
 
 export default function WomenProduct(props){
+  console.log(props.image)
   return(
     <>
       <div className="product-div">
-        <img className="women-product-image" src={image1} alt="product img" />
+        <img className="women-product-image" 
+        src={`../../../public/Women-prodcut-Image/${props.image}`} 
+        alt="product img" />
         <h5 className="women-product-name">{props.name}</h5>
         <p className="women-product-price">{props.price}</p>
        </div>
@@ -12,4 +15,5 @@ export default function WomenProduct(props){
   )
 }
 
+// `../../Women-prodcut-Image/${props.image}`
 // `../../../public/Women-prodcut-Image/${props.image}`
