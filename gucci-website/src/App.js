@@ -8,16 +8,9 @@ import AboutContainer from './About-page/AboutContainer';
 import Men from './Pages/Men/Men';
 import Women from './Pages/Women/Women';
 import Kids from './Pages/Kids/Kids';
-import WomenData from './Pages/Women/WomenData';
 
 
 function App() {
-
-  const productMap = WomenData.map((WomenData) => {
-    return(
-      <Women {...WomenData} />
-    )
-  })
   return (
     <>
       <nav className='header-wrapper'>
