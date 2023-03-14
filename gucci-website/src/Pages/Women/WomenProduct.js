@@ -6,7 +6,7 @@ export default function WomenProduct(props){
     <>
       <div className="product-div">
         <img className="women-product-image" 
-        src={`../../../public/Women-prodcut-Image/${props.image}`} 
+        src={props.image} 
         alt="product img" />
         <h5 className="women-product-name">{props.name}</h5>
         <p className="women-product-price">{props.price}</p>
