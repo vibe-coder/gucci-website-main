@@ -1,11 +1,12 @@
 import "./women.css"
 import React from "react"
-import Image1 from  "./Women-prodcut-Image/image-1.jpg"
 import WomenProduct from "./WomenProduct"
 import WomenData from "./WomenData"
 
 export default function Women(props){
-  console.log(WomenData.name)
+  const productMap = WomenData.map((WomenData)=>{
+    return (<WomenProduct {...WomenData}/>)
+  })
   return(
     <>
       <div className="black-backdrop-2">.</div>
@@ -33,7 +34,9 @@ export default function Women(props){
             </div>
           </div>
 
-          <WomenProduct image={Image1}/>
+          <div className="collection-wrapper">
+            {productMap}
+          </div>
         </div>
       </div>
     </>
