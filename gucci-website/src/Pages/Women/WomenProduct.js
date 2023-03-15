@@ -7,7 +7,8 @@ export default function WomenProduct(props){
       <div className="product-div">
         <img 
         className="women-product-image" 
-        src={require(`../../Women-prodcut-Image/${props.image}`)}
+        src={require('' + props.image)}
+        loading="lazy"
         alt="product img" 
         />
         <h5 className="women-product-name">{props.name}</h5>

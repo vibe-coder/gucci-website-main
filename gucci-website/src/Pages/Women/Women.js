@@ -42,6 +42,11 @@ export default function Women(){
           <div className="collection-wrapper">
             {productMap}
           </div>
+
+          <div className="load-more-wrapper">
+            <a className="load-more" href="ww.gucci.com">LOAD MORE</a>
+            <
+          </div>
         </div>
       </div>
     </>

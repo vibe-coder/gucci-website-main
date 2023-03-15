@@ -1,5 +1,5 @@
 .women-page-wrapper{
-  min-height: 100vh;
+  min-height: 350vh;
   padding: 0 30px;
   margin: 0;
 }
@@ -70,10 +70,11 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .women-product-image{
-  width: 315px;
+  width: 322px;
   height: 350px;
   object-fit: cover;
   object-position: center;
@@ -95,4 +96,16 @@
   margin-bottom: 20px;
 }
 
+.load-more-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.load-more{
+  text-decoration: underline;
+  color: black;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 13px;
+}
 
