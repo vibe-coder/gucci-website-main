@@ -1,5 +1,11 @@
+.black-backdrop-2{
+  background-color: black;
+  height: 80px;
+}
+
+
 .women-page-wrapper{
-  min-height: 350vh;
+  min-height: 340vh;
   padding: 0 30px;
   margin: 0;
 }
@@ -99,6 +105,8 @@
 .load-more-wrapper{
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .load-more{
@@ -107,5 +115,23 @@
   font-family: Raleway;
   font-weight: 700;
   font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.more-pages-link-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.more-pages-link-wrapper>a{
+  padding: 0 5px;
+  color: black;
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 15px;
+}
+
+.more-pages-link-wrapper>p{
+  margin: 0 5px;
 }
 

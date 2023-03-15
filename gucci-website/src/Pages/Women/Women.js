@@ -45,7 +45,14 @@ export default function Women(){
 
           <div className="load-more-wrapper">
             <a className="load-more" href="ww.gucci.com">LOAD MORE</a>
-            <
+            <div className="more-pages-link-wrapper">
+              <p>‹</p>
+              <a href="ww.gucci.com">1</a>
+              <a href="ww.gucci.com">2</a>
+              <a href="ww.gucci.com">...</a>
+              <a href="ww.gucci.com">8</a>
+              <p>›</p>
+            </div>
           </div>
         </div>
       </div>
