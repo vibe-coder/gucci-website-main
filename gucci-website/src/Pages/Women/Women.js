@@ -3,9 +3,14 @@ import React from "react"
 import WomenProduct from "./WomenProduct"
 import WomenData from "./WomenData"
 
-export default function Women(props){
+export default function Women(){
   const productMap = WomenData.map((WomenData)=>{
-    return (<WomenProduct {...WomenData}/>)
+    return (<WomenProduct  
+      // {...WomenData}
+    image={WomenData.image}
+    name={WomenData.name}
+    price={WomenData.price}
+    />)
   })
   return(
     <>

@@ -17,7 +17,7 @@ const WomenData = [
   {
     key:"3",
     image:"image-3.jpg",
-    name:"product-name",
+    name:"product-name-3",
     price:"product-price"
   },
 
@@ -142,4 +142,4 @@ const WomenData = [
 
 ]
 
-export default WomenData 
+export default WomenData;
