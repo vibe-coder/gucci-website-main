@@ -2,142 +2,142 @@ const MenData = [
 
   {
     key:"1",
-    image:"./Women-prodcut-Image/image-1.jpg",
+    image:"./men-prodcut-Image/m-image-1.jpg",
     name:"product-name",
-    price:"product-price"
+    price:"$ 950"
   },
 
   {
     key:"2",
-    image:"./Women-prodcut-Image/image-2.jpg",
+    image:"./men-prodcut-Image/m-image-2.jpg",
     name:"product-name",
-    price:"product-price"
+    price:"$ 3,600"
   },
 
   {
     key:"3",
-    image:"./Women-prodcut-Image/image-3.jpg",
+    image:"./men-prodcut-Image/m-image-3.jpg",
     name:"product-name-3",
-    price:"product-price"
+    price:"$ 1,800"
   },
 
   {
     key:"4",
-    image:"./Women-prodcut-Image/image-4.jpg",
+    image:"./men-prodcut-Image/m-image-4.jpg",
     name:"product-name",
-    price:"product-price"
+    price:"$ 3,600"
   },
 
   {
     key:"5",
-    image:"./Women-prodcut-Image/image-5.jpg",
+    image:"./men-prodcut-Image/m-image-5.jpg",
     name:"product-name",
-    price:"product-price"
+    price:"$ 3,900"
   },
 
   {
     key:"6",
-    image:"./Women-prodcut-Image/image-6.jpg",
+    image:"./men-prodcut-Image/m-image-6.jpg",
     name:"product-name",
-    price:"product-price"
+    price:"$ 4,850"
   },
 
   {
     key:"7",
-    image:"./Women-prodcut-Image/image-7.jpg",
+    image:"./men-prodcut-Image/m-image-7.jpg",
     name:"product-name",
-    price:"product-price"
+    price:"$ 7,350"
   },
 
   {
     key:"8",
-    image:"./Women-prodcut-Image/image-8.jpg",
+    image:"./men-prodcut-Image/m-image-8.jpg",
     name:"product-name",
-    price:"product-price"
+    price:"$ 6,685"
   },
 
   {
     key:"9",
-    image:"./Women-prodcut-Image/image-9.jpg",
+    image:"./men-prodcut-Image/m-image-9.jpg",
     name:"product-name",
-    price:"product-price"
+    price:"$ 4,150"
   },
 
   {
     key:"10",
-    image:"./Women-prodcut-Image/image-10.jpg",
+    image:"./men-prodcut-Image/m-image-10.jpg",
     name:"product-name",
-    price:"product-price"
+    price:"$ 3,100"
   },
 
   {
     key:"11",
-    image:"./Women-prodcut-Image/image-11.jpg",
+    image:"./men-prodcut-Image/m-image-11.jpg",
     name:"product-name",
-    price:"product-price"
+    price:"$ 4,550"
   },
 
   {
     key:"12",
-    image:"./Women-prodcut-Image/image-12.jpg",
+    image:"./men-prodcut-Image/m-image-12.jpg",
     name:"product-name",
-    price:"product-price"
+    price:"$ 4,650"
   },
 
   {
     key:"13",
-    image:"./Women-prodcut-Image/image-13.jpg",
+    image:"./men-prodcut-Image/m-image-13.jpg",
     name:"product-name",
-    price:"product-price"
+    price:"$ 1,625"
   },
 
   {
     key:"14",
-    image:"./Women-prodcut-Image/image-14.jpg",
+    image:"./men-prodcut-Image/m-image-14.jpg",
     name:"product-name",
-    price:"product-price"
+    price:"$ 6,450"
   },
 
   {
     key:"15",
-    image:"./Women-prodcut-Image/image-15.jpg",
+    image:"./men-prodcut-Image/m-image-15.jpg",
     name:"product-name",
-    price:"product-price"
+    price:"2,150"
   },
 
   {
     key:"16",
-    image:"./Women-prodcut-Image/image-16.jpg",
+    image:"./men-prodcut-Image/m-image-16.jpg",
     name:"product-name",
-    price:"product-price"
+    price:"$ 4,900"
   },
 
   {
     key:"17",
-    image:"./Women-prodcut-Image/image-17.jpg",
+    image:"./men-prodcut-Image/m-image-17.jpg",
     name:"product-name",
-    price:"product-price"
+    price:"$ 5,850"
   },
 
   {
     key:"18",
-    image:"./Women-prodcut-Image/image-18.jpg",
+    image:"./men-prodcut-Image/m-image-18.jpg",
     name:"product-name",
-    price:"product-price"
+    price:"$ 3,665"
   },
 
   {
     key:"19",
-    image:"./Women-prodcut-Image/image-19.jpg",
+    image:"./men-prodcut-Image/m-image-19.jpg",
     name:"product-name",
-    price:"product-price"
+    price:"$ 4,650"
   },
 
   {
     key:"20",
-    image:"./Women-prodcut-Image/image-20.jpg",
+    image:"./men-prodcut-Image/m-image-20.jpg",
     name:"product-name",
-    price:"product-price"
+    price:"$ 5,550"
   }
 
 ]

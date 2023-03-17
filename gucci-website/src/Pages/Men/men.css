@@ -68,7 +68,7 @@
 .newest-2{
   color: black;
   font-weight: 600;
-}
+} 
 
 .collection-wrapper-2{
   margin-top: 20px;
@@ -78,14 +78,14 @@
   margin-bottom: 20px;
 }
 
-.women-product-image-2{
+.men-product-image{
   width: 322px;
   height: 350px;
   object-fit: cover;
   object-position: center;
 }
 
-.women-product-name-2{
+.men-product-name{
   font-family: Raleway;
   font-weight: 600;
   font-size: 14px;
@@ -93,7 +93,7 @@
   margin-top: 10px;
 }
 
-.women-product-price-2{
+.men-product-price{
   margin: 0;
   font-family: Raleway;
   font-size: 14px;
@@ -133,4 +133,4 @@
 .more-pages-link-wrapper-2>p{
   margin: 0 5px;
 }
-
+ 

@@ -32,7 +32,7 @@ export default function Women(){
             <div className="left-button">            
               <button className="button">Category <span className="arrow">›</span></button>
               <button className="button">Filter <span className="arrow">›</span></button>
-            </div>
+        </div>
             
             <div className="right-button">
               <button className="sort-by">Sort by: <span className="newest">Newest ›</span></button>
