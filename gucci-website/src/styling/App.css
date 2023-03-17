@@ -25,7 +25,11 @@
   font-family: Raleway;
   font-size: 13px;
   margin-right: 14px;
-  
+  transition: 1s;
+}
+
+.nav-link:hover{
+  text-decoration: underline;
 }
 
 .gucci-logo{

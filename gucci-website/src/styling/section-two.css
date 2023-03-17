@@ -41,6 +41,9 @@
 
 .center>img{
   height: 350px;
+  object-fit: cover;
+  object-position: center;
+  width: 300px;
 }
 
 .center>p{
@@ -52,6 +55,9 @@
 
 .right>img{
   height: 500px;
+  width: 400px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .right-2{
