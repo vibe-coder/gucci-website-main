@@ -18,7 +18,7 @@ export default function Kids(){
       <div className="kids-page-wrapper">
         
         <div className="intro-wrapper-3">
-          <p>Kidsss<span className="grey-intro-3"> | Ready to Wear for Kids</span></p>
+          <p>Kids<span className="grey-intro-3"> | Ready to Wear for Kids</span></p>
         </div>
 
         <div className="header-wrapper-3">

@@ -24,7 +24,7 @@
 }
 
 .about-image{
-  height: 600px;
+  height: 680px;
   object-position: top;
   object-fit: cover;
   flex: 1;
@@ -38,13 +38,14 @@
 .about-text-1{
   font-family: Raleway;
   margin: 0;
-  font-size: 47px;
+  font-size: 51px;
   font-weight: 500;
 }
 
 .about-text-2{
   font-family: Raleway;
-  margin-left: 250px;
+  margin-left: 270px;
   font-weight: 500;
+  font-size: 18px;
 }
 

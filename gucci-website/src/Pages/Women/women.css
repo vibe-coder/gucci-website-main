@@ -5,7 +5,7 @@
 
 
 .women-page-wrapper{
-  min-height: 340vh;
+  min-height: 315vh;
   padding: 0 30px;
   margin: 0;
 }
@@ -80,8 +80,8 @@
 }
 
 .women-product-image{
-  width: 322px;
-  height: 350px;
+  width: 352px;
+  height: 365px;
   object-fit: cover;
   object-position: center;
 }

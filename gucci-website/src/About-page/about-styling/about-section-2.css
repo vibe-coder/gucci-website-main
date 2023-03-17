@@ -1,7 +1,6 @@
 .about-section-2{
   min-height: 100vh;
   padding: 0 30px;
-  margin-bottom: 50px;
 }
 
 .bamboo-header{
@@ -50,7 +49,7 @@ margin: 0;
 
 .bag-section{
   display: flex;
-  column-gap: 15px;
+  column-gap: 27px;
 }
 
 .text-section{
@@ -91,11 +90,12 @@ margin: 0;
 
 .right-column-2{
   flex: 1;
+  background-color: red;
 }
 
 .gucci-bamboo{
   height: 650px;
-  width: 716px;
+  width: 843px;
   object-fit: cover;
   object-position: center;
 }

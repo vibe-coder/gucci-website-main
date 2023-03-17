@@ -12,8 +12,8 @@
 }
 
 .gucci-retro{
-  height: 250px;
-  width: 250px;
+  height: 272px;
+  width: 272px;
   object-fit: cover;
   object-position: center;
 }
@@ -23,5 +23,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.gucci-address>h3{
+  cursor: pointer;
 }
 
