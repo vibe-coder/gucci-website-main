@@ -38,6 +38,11 @@
   color: black;
   font-family: Raleway;
   font-weight: 700;
+  text-decoration: none;
+}
+
+.view-all-new:hover{
+  text-decoration: underline;
 }
 
 .credit{
@@ -45,7 +50,7 @@
   color: black;
   font-size: 10px;
   font-family: Raleway;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
 }
 

@@ -71,6 +71,11 @@
   font-size: 13px;
   margin-top: 10px;
   font-family: Raleway;
+  text-decoration: none;
+}
+
+.view-collection:hover{
+  text-decoration: underline;
 }
 
 .supreme-flora{

@@ -74,6 +74,11 @@
   font-size: 13px;
   color: black;
   font-weight: 700;
+  text-decoration: none;
+}
+
+.right-2:hover{
+  text-decoration: underline;
 }
 
 
