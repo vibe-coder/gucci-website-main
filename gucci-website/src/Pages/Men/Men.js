@@ -16,11 +16,11 @@ export default function Men(){
     <>
       <div className="black-backdrop-3">.</div>
       <div className="men-page-wrapper">
-        <div className="intro-wrapper">
-          <p>Men<span className="grey-intro"> | Ready to Wear for Men</span></p>
-        </div>
+        <div className="intro-wrapper-3">
+        <p>Men<span className="grey-intro-3"> | Ready to Wear for Men</span></p>
+      </div>
 
-        <div className="header-wrapper-2">
+        <div className="header-wrapper-3">
           <h2>MEN'S READY-TO-WEAR</h2>
           <p>The men's ready-to-wear collection designed by Alessandro Michele mixes silk
             <br/>dresses, tweed ensembles and embelished looks.

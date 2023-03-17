@@ -1,4 +1,136 @@
 .kids-page-wrapper{
-  min-height: 100vh;
-  background-color: pink;
+  min-height: 340vh;
+  padding: 0 30px;
+  margin: 0;
 }
+
+.black-backdrop-4{
+  background-color: black;
+  height: 80px;
+}
+
+.intro-wrapper-3{
+  padding-top: 30px;
+}
+
+.intro-wrapper-3>p{
+  font-family: Raleway;
+  margin: 0;
+  font-weight: 600;
+}
+
+.grey-intro-3{
+  color: grey;
+  font-weight: 400;
+}
+
+.header-wrapper-3{
+  text-align: center;
+  font-family: Raleway;
+}
+
+.header-wrapper-3>p{
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.filter-wrapper-3{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-button-3{
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-3{
+  background-color: transparent;
+  border: none;
+  font-family: Raleway;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.arrow-3{
+  transform: rotate(90deg);
+}
+
+.sort-by-3{
+  background-color: transparent;
+  border: none;
+  font-family: Raleway;
+  cursor: pointer;
+  color: grey;
+}
+
+.newest-3{
+  color: black;
+  font-weight: 600;
+} 
+
+.collection-wrapper-3{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.kids-product-image{
+  width: 322px;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.kids-product-name{
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.kids-product-price{
+  margin: 0;
+  font-family: Raleway;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.load-more-wrapper-3{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.load-more-3{
+  text-decoration: underline;
+  color: black;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.more-pages-link-wrapper-3{
+  display: flex;
+  align-items: center;
+}
+
+.more-pages-link-wrapper-3>a{
+  padding: 0 5px;
+  color: black;
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 15px;
+}
+
+.more-pages-link-wrapper-3>p{
+  margin: 0 5px;
+}
+ 
