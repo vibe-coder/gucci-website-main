@@ -2,7 +2,7 @@ import React from "react";
 import "../styling/section-four.css"
 import gucciImage from "../model/oladimeji-odunsi-Wu3yqve2gnc-unsplash.jpg"
 import gucciImage2 from "../model/calicadoo-ttdio_nOPjQ-unsplash.jpg"
-import gucciImage3 from "../model/isco--UfV80lOCqg-unsplash.jpg"
+import gucciImage3 from "../model/jingjie-wong-ZQWzhklAN48-unsplash.jpg"
 
 function SectionFour(){
   return (

@@ -20,7 +20,7 @@
   width: 420px;
   height: 500px;
   object-fit: cover;
-  object-position: bottom;
+  object-position: left;
 }
 
 .column-paragraph{
