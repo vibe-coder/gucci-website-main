@@ -1,14 +1,16 @@
 import "./kids.css"
-
+import KidsProduct from "./KidsProduct"
+import KidsData from "./KidsData"
 
 export default function Kids(){
-  const productMap3 = MennData.map((MenData)=>{
-    return (<MenProduct  
+  const productMap3 = KidsData.map((MenData)=>{
+    return (<KidsProduct 
     image={MenData.image}
     name={MenData.name}
     price={MenData.price}
     />)
   })
+
   return(
     <>
       <div className="black-backdrop-4">.</div>
@@ -40,7 +42,7 @@ export default function Kids(){
         </div>
 
         <div className="collection-wrapper-3">
-            Hey
+            {productMap3}
         </div>
 
 
@@ -55,11 +57,6 @@ export default function Kids(){
             <p>›</p>
           </div>
         </div>
-      
-      
-      
-      
-      
       </div>
     </>
   )
